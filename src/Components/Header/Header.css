@@ -1,0 +1,52 @@
+a.active {
+  font-weight: bold;
+}
+.header {
+  position: sticky;
+  top: 0;
+  min-height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #6c5df3;
+}
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: azure;
+  padding-left: 60px;
+}
+.logo:hover {
+  color: rgb(229, 223, 246);
+}
+.header_link {
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+}
+.header_link ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: antiquewhite;
+  padding: 0 15px;
+}
+.header-cart-icon {
+  font-size: 25px;
+}
+sup {
+  font-size: 15px;
+}
+.btn-logout {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: antiquewhite;
+  background-color: #6c5df3;
+  border: none;
+  padding: 0 15px;
+}
